@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "remix vite:build",
-    "dev": "vite build --watch --config vite.extensions.config.ts && shopify app dev",
+    "dev": "vite build --watch --config vite.extensions.config.ts & shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
