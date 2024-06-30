@@ -1,0 +1,15 @@
+<div id="root">
+  {% liquid
+    # Relative to entrypointsDir
+    render 'vite-tag' with 'theme.css'
+    render 'vite-tag' with 'theme.tsx'
+  %}
+</div>
+{% schema %}
+{
+  "name": "Example",
+  "target": "body",
+  "settings": []
+}
+{% endschema %}
+
